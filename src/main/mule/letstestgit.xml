@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="localhost" port="9089" />
 	</http:listener-config>
 	<flow name="letstestgitFlow" doc:id="e91d0691-6755-436d-a0dc-7d300da7f780" >
-		<http:listener doc:name="Listener" doc:id="b3b94e48-bde1-446d-975d-dc608dce1867" config-ref="HTTP_Listener_config" path="/testshruti88"/>
-		<set-payload value="'shruti'" doc:name="Set Payload" doc:id="4c02f58b-a473-4f0e-a0f4-c90694e0d1e5" />
+		<http:listener doc:name="Listener" doc:id="b3b94e48-bde1-446d-975d-dc608dce1867" config-ref="HTTP_Listener_config" path="/testprashant88"/>
+		<set-payload value="'prashant'" doc:name="Set Payload" doc:id="4c02f58b-a473-4f0e-a0f4-c90694e0d1e5" />
 	</flow>
 </mule>
